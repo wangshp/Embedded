@@ -1,0 +1,8 @@
+
+2016-06-08
+Q: *** Error 65: Access violation at 0x00000004 : No 'write' permission
+A: http://www.keil.com/support/docs/814.htm
+
+Resources:
+郭天祥十天学会单片机： http://pan.baidu.com/s/1hrH1Ite
+原子学stm：http://www.openedv.com/thread-9006-1-1.html
