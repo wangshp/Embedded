@@ -1,0 +1,2 @@
+# Embedded
+embedded resources
