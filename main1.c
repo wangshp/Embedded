@@ -4,7 +4,7 @@
 int main(void)
 {
 	GPIO_InitTypeDef GPIO_STRUCT;
-  HAL_Init();                      //if wanna use HAL_Delay() then need initial HAL.
+  	HAL_Init();                      //if wanna use HAL_Delay() then need initial HAL.
 	__HAL_RCC_GPIOD_CLK_ENABLE();    //rcc give time drive to gpio before configure it.
 
 	
@@ -15,7 +15,7 @@ int main(void)
 	
 	HAL_GPIO_Init(GPIOD, &GPIO_STRUCT);
 
-  while(1)
+	while(1)
 	{
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 
